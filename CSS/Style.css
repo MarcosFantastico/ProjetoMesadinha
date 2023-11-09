@@ -1,0 +1,86 @@
+body
+{
+    background-image:radial-gradient(white, grey);
+    margin:auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+ul>li
+{
+    padding: 0px 10px;
+}
+
+td>a
+{
+margin-left: 10px;
+}
+
+.frmlogin{
+position: absolute;
+top:50%;
+left:50%;
+width:auto;
+height:auto;
+transform:translate(-50%,-50%);
+
+background-color: rgb(240, 240, 240);
+padding: 15px;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 5px rgb(49, 47, 47);
+}
+
+.frm{
+    position: absolute;
+    top: 15%;
+    left:50%;
+    transform:translate(-50%);
+    width:1080px;
+    height:auto;  
+    
+    }
+
+.meio
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bordas
+{
+
+    border: 10px groove rgba(59, 112, 83, 0.801);
+    border-radius: 15px 15px 15px 0px;
+    padding: 15px;
+    box-shadow: 7px 7px 7px 7px rgba(59, 112, 83, 0.801);
+}
+.margin-top
+{
+    margin-top: 10px;
+}
+.lista
+{
+    background-color: rgba(255, 255, 255, 0.527);  
+    padding: 16px;
+    margin-bottom: 20px;
+}
+input[value="Cadastrar"],a#cad
+{
+     margin-top:12px;
+}
+input#NameC
+{
+    margin-bottom: 10px;
+}
+
+
+

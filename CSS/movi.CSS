@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(21, 21, 34);
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: auto;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.pading{
+    width: 450px;
+    height: 100%;
+    padding-inline-start: 50px;
+    
+}
+.aling{
+    width: 450px;
+    height: 100%;
+}
+.frmlogin{
+    background-color: rgb(240, 240, 240);
+    width: 450px;
+    height: auto;
+    padding-inline-start: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
